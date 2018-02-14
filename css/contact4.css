@@ -1,0 +1,81 @@
+body{
+    background:url('../images/background2.jpg');
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: -2px;
+    color: red;
+}
+
+.formm{
+    background: #000;
+    opacity: 0.8;
+    margin-top: 50px;
+}
+
+.contact_form{
+    max-width: 450px;
+    margin:1em auto;
+}
+
+.contact_form .form-group{
+    margin-bottom: 0;
+    position: relative;
+
+}
+
+
+.contact_form input:nth-of-type(2){margin-top:10px;}
+
+.contact_form textarea {
+    height: 150px ;
+}
+.contact_form  input:not([type='submit']) + i {
+position: relative;
+height: 0;
+top: -27px;
+left: 7px;
+color: #999;
+}
+.contact_form input{
+    padding-left: 30px;
+}
+.contact_form .asterisk{
+    color: red;
+    font-size: 11px;
+    height: 0;
+    float: right;
+    top: -25px;
+    position: relative;
+    right: 6px;
+}
+.contact_form .send-icon{
+    display: block;
+    top: -24px;
+    left: 4px;
+    color: #fff;
+    position: relative;
+}
+
+.alert1,
+.alert2,
+.alert3
+{
+    padding: 6px 10px;
+    display: none;
+}
+
+ .fonts {margin-top: 120px;}
+ .font i {
+    color: red;
+    float: left;
+    margin-right: 15px;
+    font-size: 30px;
+    padding: 10px;
+    opacity: 0.9
+   
+}
+ .font p{ color: #fff; font-size: 25px; padding: 10px; }
+ 
